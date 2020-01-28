@@ -1,1 +1,15 @@
-Testing auto deployment by git commit then using jenkins
+First Devops Testing
+---------------------
+
+creating auto deployment after git commit using jenkins
+
+create 2 jobs at jenkins:
+-------------------------
+1. listening to git commits - when commit triggered pusing the updates to the production environment
+2. if update the production environment suceessed - run web monitoring job to verify the production server is up after the content update
+
+TODO:
+-----
+1. create Selenium IDE script to test the new functionality
+2. create jenkins job to run the test automatically
+3. perform 1 min load test if all verify and test passed to test the new production server under pressure
