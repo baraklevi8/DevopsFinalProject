@@ -12,4 +12,4 @@ TODO:
 -----
 1. create Selenium IDE script to test the new functionality
 2. create jenkins job to run the test automatically
-3. perform 1 min load test if all verify and test passed to test the new production server under pressure
+3. perform 1 min load test if all verify and test passed to test the new production server under pressure blublublu
